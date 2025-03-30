@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sur le langage C</title>
+    <!-- Lien vers le fichier CSS externe -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Quiz sur le langage C</h1>
+    <p>Bienvenue sur la page du quiz. Répondez aux questions suivantes :</p>
+
+    <form action="thanks.html" method="get">
+        <!-- Question 1 -->
+        <fieldset>
+            <legend>1. Quel mot-clé est utilisé pour définir une fonction en C ?</legend>
+            <input type="radio" id="q1a" name="q1" value="function">
+            <label for="q1a">function</label><br>
+            <input type="radio" id="q1b" name="q1" value="def">
+            <label for="q1b">def</label><br>
+            <input type="radio" id="q1c" name="q1" value="void">
+            <label for="q1c">void</label><br>
+            <input type="radio" id="q1d" name="q1" value="int">
+            <label for="q1d">int</label>
+        </fieldset><br>
+
+        <!-- Question 2 -->
+        <fieldset>
+            <legend>2. Quel opérateur est utilisé pour accéder à l'adresse d'une variable en C ?</legend>
+            <input type="radio" id="q2a" name="q2" value="&">
+            <label for="q2a">&</label><br>
+            <input type="radio" id="q2b" name="q2" value="*">
+            <label for="q2b">*</label><br>
+            <input type="radio" id="q2c" name="q2" value="#">
+            <label for="q2c">#</label><br>
+            <input type="radio" id="q2d" name="q2" value="@">
+            <label for="q2d">@</label>
+        </fieldset><br>
+
+        <!-- Question 3 -->
+        <fieldset>
+            <legend>3. Quelle fonction est utilisée pour afficher du texte à l'écran en C ?</legend>
+            <input type="radio" id="q3a" name="q3" value="print">
+            <label for="q3a">print</label><br>
+            <input type="radio" id="q3b" name="q3" value="printf">
+            <label for="q3b">printf</label><br>
+            <input type="radio" id="q3c" name="q3" value="echo">
+            <label for="q3c">echo</label><br>
+            <input type="radio" id="q3d" name="q3" value="cout">
+            <label for="q3d">cout</label>
+        </fieldset><br>
+
+        <!-- Question 4 -->
+        <fieldset>
+            <legend>4. Quel est le type de retour de la fonction main en C ?</legend>
+            <input type="radio" id="q4a" name="q4" value="void">
+            <label for="q4a">void</label><br>
+            <input type="radio" id="q4b" name="q4" value="int">
+            <label for="q4b">int</label><br>
+            <input type="radio" id="q4c" name="q4" value="float">
+            <label for="q4c">float</label><br>
+            <input type="radio" id="q4d" name="q4" value="char">
+            <label for="q4d">char</label>
+        </fieldset><br>
+
+        <!-- Question 5 -->
+        <fieldset>
+            <legend>5. Comment déclare-t-on un tableau de 10 entiers en C ?</legend>
+            <input type="radio" id="q5a" name="q5" value="int array[10];">
+            <label for="q5a">int array[10];</label><br>
+            <input type="radio" id="q5b" name="q5" value="array[10] int;">
+            <label for="q5b">array[10] int;</label><br>
+            <input type="radio" id="q5c" name="q5" value="int array(10);">
+            <label for="q5c">int array(10);</label><br>
+            <input type="radio" id="q5d" name="q5" value="array = [10]int;">
+            <label for="q5d">array = [10]int;</label>
+        </fieldset><br>
+
+        <!-- Question 6 -->
+        <fieldset>
+            <legend>6. Quelle bibliothèque standard doit-on inclure pour utiliser printf ?</legend>
+            <input type="radio" id="q6a" name="q6" value="math.h">
+            <label for="q6a">math.h</label><br>
+            <input type="radio" id="q6b" name="q6" value="stdio.h">
+            <label for="q6b">stdio.h</label><br>
+            <input type="radio" id="q6c" name="q6" value="stdlib.h">
+            <label for="q6c">stdlib.h</label><br>
+            <input type="radio" id="q6d" name="q6" value="string.h">
+            <label for="q6d">string.h</label>
+        </fieldset><br>
+
+        <!-- Question 7 -->
+        <fieldset>
+            <legend>7. Quel est le résultat de sizeof(int) sur une machine 32 bits ?</legend>
+            <input type="radio" id="q7a" name="q7" value="2">
+            <label for="q7a">2</label><br>
+            <input type="radio" id="q7b" name="q7" value="4">
+            <label for="q7b">4</label><br>
+            <input type="radio" id="q7c" name="q7" value="8">
+            <label for="q7c">8</label><br>
+            <input type="radio" id="q7d" name="q7" value="16">
+            <label for="q7d">16</label>
+        </fieldset><br>
+
+        <!-- Question 8 -->
+        <fieldset>
+            <legend>8. Comment termine-t-on une instruction en C ?</legend>
+            <input type="radio" id="q8a" name="q8" value=".">
+            <label for="q8a">.</label><br>
+            <input type="radio" id="q8b" name="q8" value=";">
+            <label for="q8b">;</label><br>
+            <input type="radio" id="q8c" name="q8" value=":">
+            <label for="q8c">:</label><br>
+            <input type="radio" id="q8d" name="q8" value=",">
+            <label for="q8d">,</label>
+        </fieldset><br>
+
+        <!-- Question 9 -->
+        <fieldset>
+            <legend>9. Quelle est la syntaxe correcte pour un commentaire sur une ligne en C ?</legend>
+            <input type="radio" id="q9a" name="q9" value="// Commentaire">
+            <label for="q9a">// Commentaire</label><br>
+            <input type="radio" id="q9b" name="q9" value="/* Commentaire */">
+            <label for="q9b">/* Commentaire */</label><br>
+            <input type="radio" id="q9c" name="q9" value="# Commentaire">
+            <label for="q9c"># Commentaire</label><br>
+            <input type="radio" id="q9d" name="q9" value="-- Commentaire">
+            <label for="q9d">-- Commentaire</label>
+        </fieldset><br>
+
+        <!-- Question 10 -->
+        <fieldset>
+            <legend>10. Quel est le rôle de la fonction malloc en C ?</legend>
+            <input type="radio" id="q10a" name="q10" value="Libérer de la mémoire">
+            <label for="q10a">Libérer de la mémoire</label><br>
+            <input type="radio" id="q10b" name="q10" value="Allouer de la mémoire">
+            <label for="q10b">Allouer de la mémoire</label><br>
+            <input type="radio" id="q10c" name="q10" value="Afficher du texte">
+            <label for="q10c">Afficher du texte</label><br>
+            <input type="radio" id="q10d" name="q10" value="Lire un fichier">
+            <label for="q10d">Lire un fichier</label>
+        </fieldset><br>
+
+        <!-- Boutons -->
+        <input type="submit" value="Soumettre">
+        <input type="reset" value="Réinitialiser">
+    </form>
+
+    <p><a href="home.html">Retour à l'accueil</a></p>
+</body>
+</html>
